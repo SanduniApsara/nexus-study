@@ -79,6 +79,7 @@ npm run dev
 
 ### 📊 Dashboard
 ![Dashboard](https://github.com/user-attachments/assets/dede9816-6fc0-45ba-9d8b-0fd12c4a6232)
+<img width="1920" height="895" alt="dashbd png" src="https://github.com/user-attachments/assets/f3f6a52e-daf8-41dd-ba5e-188ccb853def" />
 
 ### 📚 Modules
 ![Modules](https://github.com/user-attachments/assets/eaa5aa85-6442-4240-9296-7b503fe9aa3a)
