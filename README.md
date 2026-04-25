@@ -76,8 +76,9 @@ npm install
 npm run dev
 
 ## 📸 Screenshots
-<img width="1920" height="895" alt="dashbd png" src="https://github.com/user-attachments/assets/7fbcaf5e-4a48-4a43-b63c-916db7d8bccc" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/7fbcaf5e-4a48-4a43-b63c-916db7d8bccc" width="800"/>
+</p>
 
 
 📊 System Design
