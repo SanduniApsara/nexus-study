@@ -1,0 +1,105 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { font-size: 15px; scroll-behavior: smooth; }
+
+  body {
+    background: #0a0a0f;
+    color: #f0f0fa;
+    font-family: 'Syne', sans-serif;
+    min-height: 100vh;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::-webkit-scrollbar { width: 5px; height: 5px; }
+  ::-webkit-scrollbar-track { background: #111118; }
+  ::-webkit-scrollbar-thumb { background: #35354a; border-radius: 99px; }
+  ::selection { background: #c8f050; color: #000; }
+}
+
+@layer components {
+  .card {
+    @apply bg-bg2 border border-border rounded-xl2 p-5
+           transition-all duration-200 hover:border-borderHi;
+  }
+
+  .btn-primary {
+    @apply bg-accent text-black font-bold rounded-full px-5 py-2 text-sm
+           transition-all duration-200 hover:opacity-90 hover:-translate-y-0.5
+           active:scale-95 cursor-pointer border-0;
+  }
+
+  .btn-secondary {
+    @apply bg-bg3 text-text1 font-semibold rounded-full px-5 py-2 text-sm
+           border border-borderHi transition-all duration-200
+           hover:border-accent cursor-pointer;
+  }
+
+  .btn-ghost {
+    @apply bg-transparent text-text2 rounded-full px-4 py-2 text-sm
+           border border-border transition-all duration-200
+           hover:text-text1 hover:border-borderHi cursor-pointer;
+  }
+
+  .btn-danger {
+    @apply bg-transparent text-danger rounded-full px-4 py-2 text-sm
+           border border-danger/30 transition-all duration-200
+           hover:bg-danger/10 cursor-pointer;
+  }
+
+  .input-field {
+    @apply bg-bg3 border border-border rounded-lg px-3 py-2.5 text-text1
+           font-display text-sm outline-none w-full
+           transition-colors duration-200 focus:border-accent
+           placeholder:text-text3;
+  }
+
+  .select-field {
+    @apply bg-bg3 border border-border rounded-lg px-3 py-2.5 text-text1
+           font-display text-sm outline-none w-full
+           transition-colors duration-200 focus:border-accent;
+  }
+
+  .label {
+    @apply text-xs font-mono text-text3 uppercase tracking-widest;
+  }
+
+  .badge-accent  { @apply bg-accent/15 text-accent text-xs font-mono px-2 py-0.5 rounded; }
+  .badge-danger  { @apply bg-danger/15 text-danger text-xs font-mono px-2 py-0.5 rounded; }
+  .badge-violet  { @apply bg-violet/20 text-violet text-xs font-mono px-2 py-0.5 rounded; }
+  .badge-sky     { @apply bg-sky/15 text-sky text-xs font-mono px-2 py-0.5 rounded; }
+  .badge-neutral { @apply bg-bg3 text-text3 text-xs font-mono px-2 py-0.5 rounded border border-border; }
+
+  .section-title {
+    @apply text-xs font-mono text-text2 uppercase tracking-widest;
+  }
+
+  .nav-link {
+    @apply flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold
+           text-text2 transition-all duration-200 cursor-pointer
+           hover:bg-bg3 hover:text-text1;
+  }
+
+  .nav-link.active {
+    @apply bg-accent/10 text-accent border border-accent/20;
+  }
+
+  .modal-overlay {
+    @apply fixed inset-0 bg-black/75 backdrop-blur-md z-50
+           flex items-center justify-center p-4
+           opacity-0 pointer-events-none transition-opacity duration-200;
+  }
+
+  .modal-overlay.open {
+    @apply opacity-100 pointer-events-auto;
+  }
+
+  .priority-critical { @apply text-danger bg-danger/10 border-danger/30; }
+  .priority-high     { @apply text-orange-400 bg-orange-400/10 border-orange-400/30; }
+  .priority-medium   { @apply text-yellow-400 bg-yellow-400/10 border-yellow-400/30; }
+  .priority-low      { @apply text-sky bg-sky/10 border-sky/30; }
+}
