@@ -2,7 +2,6 @@
 
 > A full-stack MERN web application that helps university students manage modules, track GPA, plan study sessions, and analyze academic performance in real time.
 
-🔗 **Live Demo:** https://sanduniapsara.github.io/nexus-study/
 📁 **Source Code:** https://github.com/SanduniApsara/nexus-study  
 
 ---
