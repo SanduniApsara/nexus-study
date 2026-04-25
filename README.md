@@ -75,13 +75,23 @@ cd client
 npm install
 npm run dev
 
-📸 Screenshots
+## 📸 Screenshots
 
-<img width="1920" height="895" alt="dashbd png" src="https://github.com/user-attachments/assets/dede9816-6fc0-45ba-9d8b-0fd12c4a6232" />
-<img width="1920" height="897" alt="modules png" src="https://github.com/user-attachments/assets/eaa5aa85-6442-4240-9296-7b503fe9aa3a" />
-<img width="1920" height="897" alt="analytics ng" src="https://github.com/user-attachments/assets/8789875e-c4fc-4fed-b73e-679af36bbbc4" />
-<img width="1920" height="882" alt="tasks png" src="https://github.com/user-attachments/assets/9af9bb02-b9e6-4b2b-be4b-c0909d2da918" />
-<img width="1920" height="894" alt="planner png" src="https://github.com/user-attachments/assets/e2b60086-5427-4663-9b74-ffd57d9ad53a" />
+### 📊 Dashboard
+![Dashboard](https://github.com/user-attachments/assets/dede9816-6fc0-45ba-9d8b-0fd12c4a6232)
+
+### 📚 Modules
+![Modules](https://github.com/user-attachments/assets/eaa5aa85-6442-4240-9296-7b503fe9aa3a)
+
+### 📈 Analytics
+![Analytics](https://github.com/user-attachments/assets/8789875e-c4fc-4fed-b73e-679af36bbbc4)
+
+### ✅ Tasks
+![Tasks](https://github.com/user-attachments/assets/9af9bb02-b9e6-4b2b-be4b-c0909d2da918)
+
+### 📅 Planner
+![Planner](https://github.com/user-attachments/assets/e2b60086-5427-4663-9b74-ffd57d9ad53a)
+
 
 📊 System Design
 Full-stack MERN architecture
