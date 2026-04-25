@@ -76,22 +76,8 @@ npm install
 npm run dev
 
 ## 📸 Screenshots
+<img width="1920" height="895" alt="dashbd png" src="https://github.com/user-attachments/assets/7fbcaf5e-4a48-4a43-b63c-916db7d8bccc" />
 
-### 📊 Dashboard
-![Dashboard](https://github.com/user-attachments/assets/dede9816-6fc0-45ba-9d8b-0fd12c4a6232)
-<img width="1920" height="895" alt="dashbd png" src="https://github.com/user-attachments/assets/f3f6a52e-daf8-41dd-ba5e-188ccb853def" />
-
-### 📚 Modules
-![Modules](https://github.com/user-attachments/assets/eaa5aa85-6442-4240-9296-7b503fe9aa3a)
-
-### 📈 Analytics
-![Analytics](https://github.com/user-attachments/assets/8789875e-c4fc-4fed-b73e-679af36bbbc4)
-
-### ✅ Tasks
-![Tasks](https://github.com/user-attachments/assets/9af9bb02-b9e6-4b2b-be4b-c0909d2da918)
-
-### 📅 Planner
-![Planner](https://github.com/user-attachments/assets/e2b60086-5427-4663-9b74-ffd57d9ad53a)
 
 
 📊 System Design
